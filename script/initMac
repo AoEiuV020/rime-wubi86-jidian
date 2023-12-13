@@ -1,0 +1,5 @@
+#!/bin/sh
+repo=$(cd $(dirname $0);cd ..;pwd)
+home=~/Library/Rime
+rm -rf $home
+ln -s $repo $home

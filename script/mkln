@@ -1,0 +1,11 @@
+#!/bin/sh
+repo=$(cd $(dirname $0);cd ..;pwd)
+home=~/Library/Rime
+for i in $*
+do
+    echo ln -s  $repo/$i $home/$i
+    rm -rf $home/$i
+    ln -s $repo/$i $home/$i
+done
+
+ß
