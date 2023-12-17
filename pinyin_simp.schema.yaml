@@ -41,6 +41,7 @@ engine:
     - punct_translator
     - script_translator
     - reverse_lookup_translator
+    - lua_translator@date_translator # 自定义系统变量输出
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

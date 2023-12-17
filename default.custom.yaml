@@ -11,10 +11,10 @@ patch:
   schema_list:
 #    - schema: wubi86_jidian             # 五笔
 #    - schema: numbers                   # 大写数字
-    - schema: wubi86_jidian_pinyin      # 五笔拼音混输
+#    - schema: wubi86_jidian_pinyin      # 五笔拼音混输
 #    - schema: wubi86_jidian_trad        # 五笔 - 简入繁出
 #    - schema: wubi86_jidian_trad_pinyin # 五笔拼音混输 - 简入繁出
-#    - schema: pinyin_simp               # 普通拼音
+    - schema: pinyin_simp               # 普通拼音
 
   # Menu
   menu:
