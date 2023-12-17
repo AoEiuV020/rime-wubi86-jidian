@@ -8,4 +8,3 @@ do
     ln -s $repo/$i $home/$i
 done
 
-ß
